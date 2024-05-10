@@ -48,7 +48,7 @@ class PDF(FPDF):
         self.multi_cell(
             132,
             20,
-            f"{name} - {category} {media} {brand}",
+            f"{name} - {category} - {media} - {brand}",
             border=0,
             max_line_height=15,
             new_x="LMARGIN",
